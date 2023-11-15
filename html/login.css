@@ -1,0 +1,26 @@
+body
+{   margin:0;
+    padding:0;
+    background-color:white;
+    font-family: 'Arial';
+}
+.login
+{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background:lavender;
+        border-radius: 15px ;
+
+
+
+}
+h1
+{
+    text-align: center;
+    color: black;
+ 
+}
+

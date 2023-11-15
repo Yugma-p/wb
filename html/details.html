@@ -1,0 +1,90 @@
+<html>
+<head>
+<script src="script.js"></script>
+<title>form</title>
+<style>
+h1{
+ color:black;
+
+}
+form{
+background-color:white;
+}
+</style>
+
+
+</head>
+
+<body bg color="white">
+<div class="form">
+<form>
+
+<h4>Registration form</h4>
+
+<img src="/home/mca/Pictures/user.png" width="90px" height="50px"><br><br>
+
+<label>Name</label>
+<input type="text">
+
+<br><br>
+
+
+<label>Date of birth</label>
+<input type="date" defaultvalue="dd/mm/yyy">
+
+<br><br>
+
+
+<label>father name</label>
+<input type="text">&nbsp;&nbsp;
+<label>mother name</label>
+<input type="text"><br><br>
+
+
+<label>Nationality</label>
+<input type="text"><br><br>
+
+
+<label>Gender:-</label><br>
+<input type="radio" id="male" name="Gender" value="male">
+<label for=   "male">male<label><br>
+<input type="radio" id="female" name="Gender" value="female">
+<label for="female">female</label><br>
+<input type="radio" id="others" name="Gender" value="others">
+<label for="others">others</label><br><br>
+
+
+<label>address</label><br><br>
+<textarea cols="20" rows="10"></textarea><br><br>
+
+
+<label>Email id:-</label>
+<input type="text"><br><br>
+<script src="Email.js"></script>
+
+
+<label>Mobile No</label>
+<input type="text" name="phone" size="10"/><br><br>
+
+
+<label for="bca">course:-</label>
+  <select name="bsc maths" id="bsc maths">
+    <option value="bsc phyics">physics</option>
+    <option value="bca">bca</option>
+    <option value="bsc cs">bsc cs</option>
+    <option value="others">others</option></select>
+    <br><br>
+    
+  <label for="2014-2017">year of passout:-</label>
+  <select name="2014-2017 id=2014-2017>
+  <option value="2014-2017">2014-2017</option>
+  <option value="2017-2020">2017-2020</option>
+  <option value="2020-2023">200-2023</opttion>
+  <option value="2023-2026">2023-2026</option>
+  </select><br><br>
+  
+<input type="submit" onClick=validateForm()>
+</form>
+</div>
+</body>
+</html>
